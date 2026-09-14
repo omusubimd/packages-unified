@@ -1,0 +1,25 @@
+{
+	"name": "@omusubimd/packages-unified",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"lint": "oxlint --no-error-on-unmatched-pattern",
+		"lint:fix": "oxlint --fix --no-error-on-unmatched-pattern",
+		"format": "oxfmt --write .",
+		"format:check": "oxfmt --check .",
+		"check": "npm run format:check && npm run lint",
+		"prepare": "husky",
+		"format:staged": "lint-staged"
+	},
+	"devDependencies": {
+		"husky": "9.1.7",
+		"lint-staged": "17.5.1",
+		"oxfmt": "0.67.0",
+		"oxlint": "1.82.0"
+	},
+	"lint-staged": {
+		"*": "oxfmt --write --no-error-on-unmatched-pattern"
+	}
+}
