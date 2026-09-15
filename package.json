@@ -1,6 +1,7 @@
 {
 	"name": "@omusubimd/packages-unified",
 	"private": true,
+	"license": "MIT",
 	"workspaces": [
 		"packages/*"
 	],

@@ -1,7 +1,24 @@
 {
-	"name": "micromark-extension-omusubi-indent",
+	"name": "@omusubimd/micromark-extension-omusubi-indent",
 	"version": "0.1.0",
 	"description": "micromark extension for Omusubi paragraphs introduced by an ideographic space",
+	"keywords": [
+		"japanese",
+		"markdown",
+		"micromark",
+		"micromark-extension",
+		"omusubi"
+	],
+	"homepage": "https://github.com/omusubimd/packages-unified/tree/main/packages/micromark-extension-omusubi-indent#readme",
+	"bugs": {
+		"url": "https://github.com/omusubimd/packages-unified/issues"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omusubimd/packages-unified.git",
+		"directory": "packages/micromark-extension-omusubi-indent"
+	},
 	"files": [
 		"dist"
 	],
@@ -12,6 +29,10 @@
 			"types": "./dist/index.d.ts",
 			"default": "./dist/index.js"
 		}
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
 		"build": "tsc -p tsconfig.json",

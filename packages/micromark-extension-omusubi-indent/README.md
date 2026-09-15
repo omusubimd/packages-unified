@@ -1,4 +1,4 @@
-# micromark-extension-omusubi-indent
+# @omusubimd/micromark-extension-omusubi-indent
 
 Omusubi の「全角スペースによる段落開始」を micromark に追加する ESM パッケージです。
 
@@ -6,7 +6,7 @@ Omusubi の「全角スペースによる段落開始」を micromark に追加�
 
 ```js
 import { micromark } from "micromark";
-import { omusubiIndentSyntax } from "micromark-extension-omusubi-indent";
+import { omusubiIndentSyntax } from "@omusubimd/micromark-extension-omusubi-indent";
 
 micromark("　最初の段落。\n　次の段落。", {
 	extensions: [omusubiIndentSyntax()],
