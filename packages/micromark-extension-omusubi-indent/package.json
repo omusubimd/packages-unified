@@ -1,0 +1,30 @@
+{
+	"name": "micromark-extension-omusubi-indent",
+	"version": "0.1.0",
+	"description": "micromark extension for Omusubi paragraphs introduced by an ideographic space",
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"test": "vitest run --config ../../vitest.config.ts --root ../.. packages/micromark-extension-omusubi-indent/test",
+		"prepack": "npm run build"
+	},
+	"dependencies": {
+		"micromark-core-commonmark": "^2.0.3",
+		"micromark-util-character": "^2.1.1",
+		"micromark-util-types": "^2.0.2"
+	},
+	"devDependencies": {
+		"mdast-util-from-markdown": "^2.0.3",
+		"micromark": "^4.0.2"
+	}
+}
