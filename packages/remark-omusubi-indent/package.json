@@ -1,0 +1,49 @@
+{
+	"name": "@omusubimd/remark-omusubi-indent",
+	"version": "0.1.0",
+	"description": "remark plugin for Omusubi paragraphs introduced by an ideographic space",
+	"keywords": [
+		"japanese",
+		"markdown",
+		"omusubi",
+		"remark",
+		"remark-plugin",
+		"unified"
+	],
+	"homepage": "https://github.com/omusubimd/packages-unified/tree/main/packages/remark-omusubi-indent#readme",
+	"bugs": {
+		"url": "https://github.com/omusubimd/packages-unified/issues"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omusubimd/packages-unified.git",
+		"directory": "packages/remark-omusubi-indent"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"test": "vitest run --config ../../vitest.config.ts --root ../.. packages/remark-omusubi-indent/test",
+		"prepack": "npm run build"
+	},
+	"dependencies": {
+		"@omusubimd/micromark-extension-omusubi-indent": "^0.1.0",
+		"@types/mdast": "^4.0.0",
+		"remark-parse": "^11.0.0",
+		"unified": "^11.0.0"
+	}
+}
