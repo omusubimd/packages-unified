@@ -1,0 +1,49 @@
+{
+	"name": "@omusubimd/micromark-extension-omusubi-ruby",
+	"version": "0.1.0",
+	"description": "micromark syntax and HTML extensions for Omusubi ruby annotations",
+	"keywords": [
+		"japanese",
+		"markdown",
+		"micromark",
+		"micromark-extension",
+		"omusubi"
+	],
+	"homepage": "https://github.com/omusubimd/packages-unified/tree/main/packages/micromark-extension-omusubi-ruby#readme",
+	"bugs": {
+		"url": "https://github.com/omusubimd/packages-unified/issues"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omusubimd/packages-unified.git",
+		"directory": "packages/micromark-extension-omusubi-ruby"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"build": "node scripts/clean.mjs && tsc -p tsconfig.json",
+		"test": "vitest run --config ../../vitest.config.ts --root ../.. packages/micromark-extension-omusubi-ruby/test",
+		"prepack": "npm run build"
+	},
+	"dependencies": {
+		"micromark-util-symbol": "^2.0.1",
+		"micromark-util-types": "^2.0.2"
+	},
+	"devDependencies": {
+		"micromark": "^4.0.2"
+	}
+}
