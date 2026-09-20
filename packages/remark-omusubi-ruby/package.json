@@ -1,0 +1,56 @@
+{
+	"name": "@omusubimd/remark-omusubi-ruby",
+	"version": "0.1.0",
+	"description": "remark plugin for Omusubi ruby annotations",
+	"keywords": [
+		"japanese",
+		"markdown",
+		"omusubi",
+		"remark-plugin",
+		"ruby"
+	],
+	"homepage": "https://github.com/omusubimd/packages-unified/tree/main/packages/remark-omusubi-ruby#readme",
+	"bugs": {
+		"url": "https://github.com/omusubimd/packages-unified/issues"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omusubimd/packages-unified.git",
+		"directory": "packages/remark-omusubi-ruby"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"build": "node scripts/clean.mjs && tsc -p tsconfig.json",
+		"test": "vitest run --config ../../vitest.config.ts --root ../.. packages/remark-omusubi-ruby/test",
+		"prepack": "npm run build"
+	},
+	"dependencies": {
+		"@omusubimd/mdast-util-omusubi-ruby": "^0.1.0",
+		"@omusubimd/micromark-extension-omusubi-ruby": "^0.2.0",
+		"@types/mdast": "^4.0.0",
+		"remark-parse": "^11.0.0",
+		"unified": "^11.0.0"
+	},
+	"devDependencies": {
+		"@omusubimd/remark-omusubi-indent": "^0.1.0",
+		"hast-util-from-html": "^2.0.3",
+		"micromark": "^4.0.2",
+		"rehype-stringify": "^10.0.1",
+		"remark-rehype": "^11.1.2"
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"name": "@omusubimd/mdast-util-omusubi-ruby",
+	"version": "0.1.0",
+	"description": "mdast extension for Omusubi ruby annotations",
+	"keywords": [
+		"japanese",
+		"markdown",
+		"mdast-util",
+		"omusubi",
+		"ruby"
+	],
+	"homepage": "https://github.com/omusubimd/packages-unified/tree/main/packages/mdast-util-omusubi-ruby#readme",
+	"bugs": {
+		"url": "https://github.com/omusubimd/packages-unified/issues"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/omusubimd/packages-unified.git",
+		"directory": "packages/mdast-util-omusubi-ruby"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"build": "node scripts/clean.mjs && tsc -p tsconfig.json",
+		"test": "vitest run --config ../../vitest.config.ts --root ../.. packages/mdast-util-omusubi-ruby/test",
+		"prepack": "npm run build"
+	},
+	"dependencies": {
+		"@types/mdast": "^4.0.0",
+		"mdast-util-from-markdown": "^2.0.3"
+	},
+	"devDependencies": {
+		"@omusubimd/micromark-extension-omusubi-ruby": "^0.2.0",
+		"hast-util-to-html": "^9.0.5",
+		"mdast-util-to-hast": "^13.2.0"
+	}
+}
