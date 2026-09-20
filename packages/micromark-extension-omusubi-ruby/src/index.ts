@@ -1,3 +1,4 @@
+export { sapphireHtml } from "./html.js";
 export { sapphireSyntax } from "./syntax.js";
 
 /* ルビ用トークンの型定義。 */
