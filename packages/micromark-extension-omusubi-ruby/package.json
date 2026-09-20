@@ -1,6 +1,6 @@
 {
 	"name": "@omusubimd/micromark-extension-omusubi-ruby",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "micromark syntax and HTML extensions for Omusubi ruby annotations",
 	"keywords": [
 		"japanese",

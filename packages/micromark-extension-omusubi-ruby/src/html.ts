@@ -8,14 +8,14 @@ interface RubyState {
 
 declare module "micromark-util-types" {
 	interface CompileData {
-		sapphireRubyStack?: RubyState[];
+		omusubiRubyStack?: RubyState[];
 	}
 }
 
 /**
  * ルビの各区間を HTML に変換します。読みが空の区間は ruby 要素の外に出力します。
  */
-export function sapphireHtml(): HtmlExtension {
+export function omusubiRubyHtml(): HtmlExtension {
 	return {
 		enter: {
 			ruby: enterRuby,
@@ -32,13 +32,13 @@ export function sapphireHtml(): HtmlExtension {
 }
 
 function enterRuby(this: CompileContext): undefined {
-	const stack = this.getData("sapphireRubyStack") ?? [];
+	const stack = this.getData("omusubiRubyStack") ?? [];
 	stack.push({ labels: [], readings: [], part: "labels" });
-	this.setData("sapphireRubyStack", stack);
+	this.setData("omusubiRubyStack", stack);
 }
 
 function current(this: CompileContext): RubyState {
-	const state = this.getData("sapphireRubyStack")?.at(-1);
+	const state = this.getData("omusubiRubyStack")?.at(-1);
 	if (!state) throw new Error("Missing ruby compile state");
 	return state;
 }
@@ -65,7 +65,7 @@ function exitPart(this: CompileContext): undefined {
 
 function exitRuby(this: CompileContext): undefined {
 	const state = current.call(this);
-	this.getData("sapphireRubyStack")?.pop();
+	this.getData("omusubiRubyStack")?.pop();
 
 	let inRuby = false;
 	for (const [index, label] of state.labels.entries()) {

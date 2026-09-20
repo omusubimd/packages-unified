@@ -2,7 +2,7 @@ import { parse, postprocess, preprocess } from "micromark";
 import type { Event, Token, TokenizeContext } from "micromark-util-types";
 import { expect, it } from "vitest";
 
-import { sapphireSyntax } from "../src/syntax.js";
+import { omusubiRubySyntax } from "../src/syntax.js";
 
 it.for<{
 	input: string;
@@ -1464,7 +1464,7 @@ it.for<{
 	})),
 ])("トークン化 ┊︎ $input", ({ input, expected }) => {
 	const events = postprocess(
-		parse({ extensions: [sapphireSyntax()] })
+		parse({ extensions: [omusubiRubySyntax()] })
 			.document()
 			.write(preprocess()(input, undefined, true)),
 	);

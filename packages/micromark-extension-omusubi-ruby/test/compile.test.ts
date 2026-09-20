@@ -1,9 +1,9 @@
 import { micromark } from "micromark";
 import { expect, it } from "vitest";
 
-import { sapphireHtml, sapphireSyntax } from "../src/index.js";
+import { omusubiRubyHtml, omusubiRubySyntax } from "../src/index.js";
 
-const options = { extensions: [sapphireSyntax()], htmlExtensions: [sapphireHtml()] };
+const options = { extensions: [omusubiRubySyntax()], htmlExtensions: [omusubiRubyHtml()] };
 
 it.for([
 	{ input: "[]<<>>", output: "<p>[]&lt;&lt;&gt;&gt;</p>" },

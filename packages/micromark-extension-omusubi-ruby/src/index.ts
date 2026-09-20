@@ -1,5 +1,5 @@
-export { sapphireHtml } from "./html.js";
-export { sapphireSyntax } from "./syntax.js";
+export { omusubiRubyHtml } from "./html.js";
+export { omusubiRubySyntax } from "./syntax.js";
 
 /* ルビ用トークンの型定義。 */
 declare module "micromark-util-types" {

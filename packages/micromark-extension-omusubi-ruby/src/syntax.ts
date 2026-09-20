@@ -28,7 +28,7 @@ import type { Code, Effects, Extension, State } from "micromark-util-types";
  *     └── rubyTextMarker                 `>>`
  * ```
  */
-export function sapphireSyntax(): Extension {
+export function omusubiRubySyntax(): Extension {
 	return {
 		text: {
 			// '['

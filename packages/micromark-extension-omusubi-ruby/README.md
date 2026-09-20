@@ -13,16 +13,16 @@ npm install micromark @omusubimd/micromark-extension-omusubi-ruby
 
 ```js
 import { micromark } from "micromark";
-import { sapphireHtml, sapphireSyntax } from "@omusubimd/micromark-extension-omusubi-ruby";
+import { omusubiRubyHtml, omusubiRubySyntax } from "@omusubimd/micromark-extension-omusubi-ruby";
 
 micromark("[青|空]<<あお|ぞら>>", {
-	extensions: [sapphireSyntax()],
-	htmlExtensions: [sapphireHtml()],
+	extensions: [omusubiRubySyntax()],
+	htmlExtensions: [omusubiRubyHtml()],
 });
 // <p><ruby>青<rt>あお</rt>空<rt>ぞら</rt></ruby></p>
 ```
 
-`sapphireSyntax()` は構文拡張、`sapphireHtml()` は HTML 出力拡張を返します。
+`omusubiRubySyntax()` は構文拡張、`omusubiRubyHtml()` は HTML 出力拡張を返します。
 どちらもオプションはありません。HTML 出力には両方を指定してください。
 
 ## 構文と出力
