@@ -14,8 +14,11 @@
 		"check": "npm run format:check && npm run lint && npm run typecheck",
 		"prepare": "husky",
 		"format:staged": "lint-staged",
+		"pretest": "npm run build",
 		"test": "vitest run",
+		"pretest:watch": "npm run build",
 		"test:watch": "vitest",
+		"pretypecheck": "npm run build",
 		"typecheck": "tsc --noEmit",
 		"build": "npm run build --workspaces --if-present"
 	},
