@@ -55,3 +55,24 @@ it("別のプロセッサーには影響しない", () => {
 	expect(parser.parse(input).children).toHaveLength(2);
 	expect(unified().use(remarkParse).parse(input).children).toHaveLength(1);
 });
+
+it.each([
+	["one\n　\n---", "one\n\n---"],
+	["one\n　 \t\n===", "one\n \t\n==="],
+	["> one\n> 　\n> ---", "> one\n>\n> ---"],
+	["one\n　\n　\nnext", "one\n\n\nnext"],
+	["- one\n  　\n  two", "- one\n  \n  two"],
+])("印だけの行は空行と同じ AST を生成する: %s", (input, plain) => {
+	const withoutPositions = (tree: unknown) =>
+		JSON.parse(JSON.stringify(tree, (key, value: unknown) => (key === "position" ? undefined : value)));
+	expect(withoutPositions(parser.parse(input))).toEqual(withoutPositions(unified().use(remarkParse).parse(plain)));
+});
+
+it("区切り後のソース位置は元の入力を参照する", () => {
+	const tree = parser.parse("one\n　\n---");
+	expect(tree.children.map((node) => node.type)).toEqual(["paragraph", "thematicBreak"]);
+	expect(tree.children[1]?.position).toEqual({
+		start: { line: 3, column: 1, offset: 6 },
+		end: { line: 3, column: 4, offset: 9 },
+	});
+});

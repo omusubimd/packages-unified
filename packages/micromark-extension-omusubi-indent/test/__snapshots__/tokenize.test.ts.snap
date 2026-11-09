@@ -200,6 +200,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -609,6 +610,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -1018,6 +1020,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -1427,6 +1430,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -1836,6 +1840,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -2249,6 +2254,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -2662,6 +2668,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -3075,6 +3082,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -3488,6 +3496,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -3901,6 +3910,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -4314,6 +4324,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -4723,6 +4734,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -5132,6 +5144,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -5541,6 +5554,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -5950,6 +5964,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -6363,6 +6378,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -6776,6 +6792,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -7189,6 +7206,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -7602,6 +7620,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -8015,6 +8034,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -8428,6 +8448,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -8837,6 +8858,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -9246,6 +9268,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -9655,6 +9678,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -10064,6 +10088,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -10477,6 +10502,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -10726,6 +10752,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -10897,6 +10924,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -11304,6 +11332,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -11711,6 +11740,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -12118,6 +12148,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -12525,6 +12556,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -12766,6 +12798,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -12937,6 +12970,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -13178,6 +13212,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -13349,6 +13384,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -13590,6 +13626,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -13761,6 +13798,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -14002,6 +14040,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -14173,6 +14212,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -14414,6 +14454,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -14585,6 +14626,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -14826,6 +14868,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -14997,6 +15040,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -15404,6 +15448,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -15811,6 +15856,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -16218,6 +16264,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -16625,6 +16672,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -16866,6 +16914,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -17037,6 +17086,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -17285,6 +17335,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -17456,6 +17507,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -17864,6 +17916,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -18272,6 +18325,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -18680,6 +18734,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -19088,6 +19143,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -19330,6 +19386,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -19501,6 +19558,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -19743,6 +19801,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -19914,6 +19973,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -20156,6 +20216,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -20327,6 +20388,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -20569,6 +20631,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -20740,6 +20803,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -20982,6 +21046,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -21153,6 +21218,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -21395,6 +21461,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -21566,6 +21633,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -21974,6 +22042,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -22382,6 +22451,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -22790,6 +22860,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -23198,6 +23269,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -23440,6 +23512,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -23611,6 +23684,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -23853,6 +23927,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -24024,6 +24099,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -24266,6 +24342,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -24437,6 +24514,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -24679,6 +24757,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -24850,6 +24929,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -25092,6 +25172,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -25263,6 +25344,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -25505,6 +25587,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -25676,6 +25759,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -26084,6 +26168,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -26492,6 +26577,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -26900,6 +26986,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -27308,6 +27395,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -27550,6 +27638,7 @@ exports[`トークン化 ┊︎ こんにちは
       "currentConstruct": {
         "name": "omusubiIndent",
         "resolve": [Function],
+        "resolveAll": [Function],
         "tokenize": [Function],
       },
       "defineSkip": [Function],
@@ -27721,6 +27810,7 @@ exports[`トークン化 ┊︎ こんにちは
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -28138,6 +28228,7 @@ exports[`トークン化 ┊︎ こんにちは　昆布おむすび 1`] = `
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -28543,6 +28634,7 @@ exports[`トークン化 ┊︎ こんにちは　昆布おむすび 1`] = `
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -28948,6 +29040,7 @@ exports[`トークン化 ┊︎ こんにちは　昆布おむすび 1`] = `
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -29353,6 +29446,7 @@ exports[`トークン化 ┊︎ こんにちは　昆布おむすび 1`] = `
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -29758,6 +29852,7 @@ exports[`トークン化 ┊︎ こんにちは　昆布おむすび 1`] = `
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],
@@ -30167,6 +30262,7 @@ exports[`トークン化 ┊︎ こんにちは　昆布おむすび 1`] = `
               {
                 "name": "omusubiIndent",
                 "resolve": [Function],
+                "resolveAll": [Function],
                 "tokenize": [Function],
               },
             ],

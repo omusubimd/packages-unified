@@ -25,3 +25,32 @@ it.for([
 
 	expect(html).toMatch(output);
 });
+
+it.for([
+	{ input: "one\n　\n---", plain: "one\n\n---" },
+	{ input: "one\n　\n===", plain: "one\n\n===" },
+	{ input: "one\n　 \t\n---", plain: "one\n \t\n---" },
+	{ input: "> one\n> 　\n> ---", plain: "> one\n>\n> ---" },
+	{ input: "> one\n> 　\n> ===", plain: "> one\n>\n> ===" },
+	{ input: "one\r\n　\r\n---", plain: "one\r\n\r\n---" },
+	{ input: "one\r　\r---", plain: "one\r\r---" },
+	{ input: "one\n　\n　\n---", plain: "one\n\n\n---" },
+	{ input: "one\n　\nnext", plain: "one\n\nnext" },
+	{ input: "one\n　", plain: "one\n" },
+	{ input: "　\n---", plain: "\n---" },
+	{ input: "　", plain: "" },
+	{ input: "- one\n  　\n  two", plain: "- one\n  \n  two" },
+])("印だけの行を空行として扱う ┊︎ $input", ({ input, plain }) => {
+	expect(micromark(input, { extensions: [omusubiIndentSyntax()] })).toBe(micromark(plain));
+});
+
+it.for(["one\n---", "one\n===", "```md\none\n　\n---\n```", "<div>\none\n　\n---\n</div>"])(
+	"通常の構文と文字としての全角スペースを変更しない ┊︎ %s",
+	(input) => {
+		expect(micromark(input, { extensions: [omusubiIndentSyntax()] })).toBe(micromark(input));
+	},
+);
+
+it("2個目の全角スペースは本文として残す", () => {
+	expect(micromark("one\n　　\n---", { extensions: [omusubiIndentSyntax()] })).toBe("<p>one</p>\n<h2>　</h2>");
+});
