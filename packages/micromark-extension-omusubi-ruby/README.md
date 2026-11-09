@@ -48,7 +48,17 @@ micromark("[青|空]<<あお|ぞら>>", {
 
 現在、`|` とラベル内の `]` はインライン書式やバックスラッシュにかかわらず区切りとして扱います。
 これらの記号をラベルに含める場合は `&#124;`、`&#93;`、読み内の `>` は `&gt;` などの文字参照を使ってください。
-リンク・画像・ルビをラベル内に入れる構文や、mdast / remark 用の変換拡張は提供していません。
+リンク・画像・ルビをラベル内に入れる構文は提供していません。
+
+## mdast / remark との連携
+
+mdast への変換や remark での利用には、次の関連パッケージを使用してください。
+
+- [`@omusubimd/mdast-util-omusubi-ruby`](../mdast-util-omusubi-ruby/README.md): `mdast-util-from-markdown` 用の変換拡張です。このパッケージの `omusubiRubySyntax()` と組み合わせて使用します。
+- [`@omusubimd/remark-omusubi-ruby`](../remark-omusubi-ruby/README.md): remark 用のプラグインです。構文拡張と mdast 変換拡張をまとめて登録します。
+
+各パッケージの README にインストール方法と使用例があります。
+Markdown への書き戻し（`toMarkdown` / `remark-stringify`）は提供していません。
 
 ## 開発
 
