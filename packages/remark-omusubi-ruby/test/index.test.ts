@@ -102,3 +102,69 @@ it("読みの文字参照を HTML として実行しない", () => {
 	expect(output).not.toContain("<script>");
 	expect(output).toContain("alert(1)");
 });
+
+const boundaryCases = [
+	{
+		name: "paragraph",
+		input: "前文\n　[青天|の|霹靂]<<せいてん||へきれき>>",
+		expected: "<p>前文</p>\n<p><ruby>青天<rt>せいてん</rt></ruby>の<ruby>霹靂<rt>へきれき</rt></ruby></p>",
+	},
+	{
+		name: "blank-setext",
+		input: "　[青空]<<あおぞら>>\n　\n---",
+		expected: "<p><ruby>青空<rt>あおぞら</rt></ruby></p>\n<hr />",
+	},
+	{
+		name: "quote",
+		input: "> 　[青空]<<あおぞら>>\n> 　\n> ---",
+		expected: "<blockquote>\n<p><ruby>青空<rt>あおぞら</rt></ruby></p>\n<hr />\n</blockquote>",
+	},
+	{
+		name: "loose-list",
+		input: "- [青空]<<あおぞら>>\n  　\n  次",
+		expected: "<ul>\n<li>\n<p><ruby>青空<rt>あおぞら</rt></ruby></p>\n<p>次</p>\n</li>\n</ul>",
+	},
+	{
+		name: "empty-readings",
+		input: "　[青|空]<<|>>\n　[海]<<うみ>>",
+		expected: "<p>青空</p>\n<p><ruby>海<rt>うみ</rt></ruby></p>",
+	},
+	{
+		name: "inline-code",
+		input: "　`[青]<<あお>>`\n　[海]<<うみ>>",
+		expected: "<p><code>[青]&lt;&lt;あお&gt;&gt;</code></p>\n<p><ruby>海<rt>うみ</rt></ruby></p>",
+	},
+	{
+		name: "fenced-code",
+		input: "```md\n　[青]<<あお>>\n```",
+		expected: '<pre><code class="language-md">　[青]&lt;&lt;あお&gt;&gt;\n</code></pre>',
+	},
+	{
+		name: "malformed-recovery",
+		input: "　[青|空]<<あおぞら>>\n　[海]<<うみ>>",
+		expected: "<p>[青|空]&lt;&lt;あおぞら&gt;&gt;</p>\n<p><ruby>海<rt>うみ</rt></ruby></p>",
+	},
+	{
+		name: "escaped-reading",
+		input: "　[A&amp;B]<<&lt;script&gt;>>",
+		expected: "<p><ruby>A&amp;B<rt>&lt;script&gt;</rt></ruby></p>",
+	},
+];
+
+for (const reverse of [false, true]) {
+	it.for(boundaryCases)(`indent/ruby 境界 (reverse=${reverse}): $name`, ({ input, expected }) => {
+		const processor = unified().use(remarkParse);
+		if (reverse) processor.use(remarkOmusubiRuby).use(remarkOmusubiIndent);
+		else processor.use(remarkOmusubiIndent).use(remarkOmusubiRuby);
+		processor.use(remarkRehype).use(rehypeStringify).freeze();
+		const actual = String(processor.processSync(input));
+		expect(htmlTree(actual)).toEqual(htmlTree(expected));
+		// Exercise micromark's HTML compiler and the mdast/rehype path with the
+		// same registered syntax extensions, so neither consumer can silently drift.
+		const direct = micromark(input, {
+			extensions: processor.data("micromarkExtensions"),
+			htmlExtensions: [omusubiRubyHtml()],
+		});
+		expect(htmlTree(actual)).toEqual(htmlTree(direct));
+	});
+}
