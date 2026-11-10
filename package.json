@@ -16,6 +16,7 @@
 		"format:staged": "lint-staged",
 		"pretest": "npm run build",
 		"test": "vitest run",
+		"test:packed": "node scripts/test-packed.mjs",
 		"pretest:watch": "npm run build",
 		"test:watch": "vitest",
 		"pretypecheck": "npm run build",
