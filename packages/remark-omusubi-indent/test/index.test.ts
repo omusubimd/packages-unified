@@ -62,6 +62,10 @@ it.each([
 	["> one\n> 　\n> ---", "> one\n>\n> ---"],
 	["one\n　\n　\nnext", "one\n\n\nnext"],
 	["- one\n  　\n  two", "- one\n  \n  two"],
+	["- 　\n- two", "- \n- two"],
+	["- previous\n- 　\n- next", "- previous\n- \n- next"],
+	["- 　\n  two", "- \n  two"],
+	["- one\n  　", "- one\n  "],
 ])("印だけの行は空行と同じ AST を生成する: %s", (input, plain) => {
 	const withoutPositions = (tree: unknown) =>
 		JSON.parse(JSON.stringify(tree, (key, value: unknown) => (key === "position" ? undefined : value)));

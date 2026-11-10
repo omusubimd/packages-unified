@@ -47,6 +47,9 @@ const tokenizeIndent: Tokenizer = function (effects, ok, nok) {
 const resolveBlankMarkers: Resolver = (events) => {
 	for (const [index, event] of events.entries()) {
 		if (event[0] !== "exit" || !(event[1] as BlankMarkerToken)._omusubiIndentBlank) continue;
+		// The Setext lookback is finished. Restore ordinary prefix whitespace so
+		// an empty initial list item keeps the compiler/mdast `atMarker` state.
+		event[1].type = "linePrefix";
 		let next = index + 1;
 		while (events[next]?.[1].type === "linePrefix") next++;
 		const ending = events[next]?.[1];

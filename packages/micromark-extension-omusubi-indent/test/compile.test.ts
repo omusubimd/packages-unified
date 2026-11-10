@@ -40,6 +40,10 @@ it.for([
 	{ input: "　\n---", plain: "\n---" },
 	{ input: "　", plain: "" },
 	{ input: "- one\n  　\n  two", plain: "- one\n  \n  two" },
+	{ input: "- 　\n- two", plain: "- \n- two" },
+	{ input: "- previous\n- 　\n- next", plain: "- previous\n- \n- next" },
+	{ input: "- 　\n  two", plain: "- \n  two" },
+	{ input: "- one\n  　", plain: "- one\n  " },
 ])("印だけの行を空行として扱う ┊︎ $input", ({ input, plain }) => {
 	expect(micromark(input, { extensions: [omusubiIndentSyntax()] })).toBe(micromark(plain));
 });
